@@ -1,0 +1,109 @@
+@import url('main.css');
+nav {
+    background-color: var(--nav);
+    color: var(--text);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav img {
+    width: 2rem;
+    margin: 0 1rem;
+}
+
+nav:hover {
+    background-color: rgb(80, 76, 76);
+}
+
+nav input, a {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .5s;
+    background-color: transparent;
+}
+
+nav input:hover, a:hover {
+    letter-spacing: .5rem;
+    color: rgb(23, 108, 219);
+    text-shadow: 0 0 5px white;
+}
+h1{
+    color: aqua;
+}
+
+table {
+    border: 1px solid rgb(8, 117, 241);
+    padding: 2rem;
+    width: 40rem;
+    text-align: center;
+    border-radius: 2rem;
+    border-width: 1rem;
+}
+
+th {
+    border: 1px solid rgb(212, 208, 208);
+    color: rgb(41, 172, 233);
+    border-radius: 1rem;
+    border-width: 1rem;
+}
+
+td {
+    border: 1px solid rgb(228, 220, 220);
+    border-radius: 1rem;
+    color: aqua;
+}
+
+th, td {
+    padding: .5rem 1rem;
+}
+
+section h1 {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 70rem;
+    color: aliceblue;
+}
+
+table button {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: rgb(8, 141, 218);
+    color: white;
+    cursor: pointer;
+}
+
+table button:hover {
+    background-color: rgb(167, 8, 230);
+}
+
+/* Add delete button CSS */
+.delete-button {
+    background-color: #1184d1;
+    color: white;
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.delete-button:hover {
+    background-color: #a90dd8;
+}

@@ -1,0 +1,18 @@
+:root {
+    --bg: #ffffff;
+    --text: #0053a0;
+    --nav: rgb(48, 47, 47);
+    --text-color: #eec59d;
+    --secondary-bg: #20daf3;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+}
+
